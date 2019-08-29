@@ -1,6 +1,6 @@
 import kotlin.random.Random
 
-fun isOneDigit(number : Int) = if (number in 0..9) true else false
+fun isOneDigit(number : Int) = (number in 0..9)
 
 fun main() {
     val listOfNumber = listOf<Int>().toMutableList()

@@ -6,6 +6,7 @@ fun main() {
         in 60..69 -> "Grade C"
         in 70..79 -> "Grade B"
         in 80..100 -> "Grade A"
+        100 -> "Perfect"
         else -> " "
     }
 

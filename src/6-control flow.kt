@@ -42,7 +42,8 @@ fun main() {
         println("Invalid")
     }
 
-    var isPassed = if (score >= 50) true else false
+//    var isPassed = if (score >= 50) true else false
+    var isPassed = score >= 50
 
     println(getMax(50, 70))
 }

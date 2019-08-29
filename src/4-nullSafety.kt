@@ -5,5 +5,4 @@ fun main() {
     println(name?.toUpperCase())
     println(name2.toUpperCase())
     println(name!!.toUpperCase())
-
 }
