@@ -4,7 +4,8 @@ class Bird : Animal {
     var color: String = "NONE"
         private set
 
-    // Variable Shadowing
+    // Variable Hiding
+    // (if shadowing = Happen between local and global var)
     override var leg: Int = 2
 
     constructor(name: String, age: Int
